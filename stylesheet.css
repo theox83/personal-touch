@@ -8,44 +8,64 @@ body {
     width: 100%;
     height: 100%;
 }
-h1{
-    height: 30px;
+.link1{
+    color: rgb(57, 109, 168);
+    font-size: 40px;
+    text-align: left;
+    top: 50px;
+    padding: 0;
 }
-.bgp {
-    width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    position: relative;
- }
-.bgp::before {
+.link1:hover{
+    color: gray;
+}
+
+
+
+ 
+.bgi{
     background-image: url(./pics/waterdrops.jpg);
     background-size: cover;
-    content: "";
-    display: block;
-    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+    
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    
+    min-width: 100%;
+    min-height: 150%;
     z-index: -2;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 
-img.logo{
+#plogo{
     padding-top: 0px;
     height: 300px;
     width: 50%;
-    margin-bottom: 20px;
-    opacity: 0.75;
+    margin-bottom: -45px;
+    opacity: .9;
+    
 }
 #logo{
     text-align: center;
     background-color: black;
     width: 100%;
     height: 300px;
-    opacity: 0.75;
+    opacity: .9;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+
+.main{
+    color: red;
+    position: relative;
+    top: 20em;
+    opacity: .90;
+
     
 }
     
